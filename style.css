@@ -1,0 +1,18 @@
+.header{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 120px auto;
+}
+.header__list{
+    display: flex;
+    gap: 33px;
+}
+.header__logo{
+    width: 120px;
+}
+.header__item__logo{
+    width: 20px;
+}
