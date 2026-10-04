@@ -13,13 +13,96 @@
         <a href="index.html" class="header__logo"><img src="img/logo.svg" alt="ロゴの画像"></a>
         <nav class="header__nav">
             <ul class="header__list">
-                <li class="header__item"><a href="#about"></a>About</li>
-                <li class="header__item"><a href="#works"></a>Works</li>
-                <li class="header__item"><a href="#news"></a>News</li>
-                <li class="header__item"><a href="#contact"></a>Contact</li>
-                <li class="header__item__logo"><a href="https://www.instagram.com/" target="_blank" rel="noopener onreferrer"></a><img src="img/icon-instagram.png" alt="アイコン"></li>
+                <li class="header__item"><a href="#about">About</a></li>
+                <li class="header__item"><a href="#works">Works</a></li>
+                <li class="header__item"><a href="#news">News</a></li>
+                <li class="header__item"><a href="#contact">Contact</a></li>
+                <li class="header__item__logo"><a href="https://www.instagram.com/" target="_blank" rel="noopener onreferrer"><img src="img/icon-instagram.png" alt="アイコン"></a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="hero">
+            <img src="img/mainvisual-pc.jpg" alt="メインの画像">
+        </div>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title">About</h2>
+                <ul class="about__list"> 
+                    <li class="about__item">Xxxxx Ashley</li>
+                    <li class="about__item">2th Floor xxxxx Building-x-x-x Nishiazabu,Minato-ku,Toukyo 106-0031-Japan</li>
+                    <li class="about__item">tel:000-0000-0000</li>
+                    <li class="about__item">url:www.xxxxxx.jp</li>
+                    <li class="about__item">mail:xxx@xxxxxx.jp</li>
+                    <p>
+                        プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                </ul>
+            </div>
+        </section>
+        <section class="works" id="works" >
+            <div class="container">
+                <h2 class="works__title">Works</h2>
+                <ul class="works__list">
+                    <li class="works__item"><img src="img/works1.jpg" alt="仕事の画像１"></li>
+                    <li class="works__item"><img src="img/works2.jpg" alt="仕事の画像２"></li>
+                    <li class="works__item"><img src="img/works3.jpg" alt="仕事の画像３"></li>
+                    <li class="works__item"><img src="img/works4.jpg" alt="仕事の画像４"></li>
+                    <li class="works__item"><img src="img/works5.jpg" alt="仕事の画像５"></li>
+                    <li class="works__item"><img src="img/works6.jpg" alt="仕事の画像６"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="news__title">News</h2>
+                <dl>
+                    <div class="news__item">
+                        <dt>2020.xx.xx</dt>
+                        <dd>デザイン雑誌「XXXXXX Vol.11」に掲載していただきました。</dd>
+                    </div>
+                    <div class="news__item">
+                        <dt>2020.XX>XX</dt>
+                        <dd>XX月XX日から写真集「XXXXXX」の販売を開始します。</dd>
+                    </div>
+                    <div class="news__item">
+                        <dt>2019.xx.xx</dt>
+                        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキスト</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact__title">Contact</h2>
+                <div class="contact__form">
+                <form action="" method="post" >
+                    <div class="form__item">
+                        <label class="label" for="name">NAME</label>
+                        <input type="text" class="input" id="name" name="name">
+                    </div>
+                     <div class="form__item">
+                        <label class="label" for="email">E-mail</label>
+                        <input type="email" class="input" id="email" name="email">
+                    </div>
+                    <div class="form__item">
+                        <label class="label" for="message">MESSAGE</label>
+                        <textarea class="input" id="message" name="message"></textarea>
+                    </div>
+                    <div class="button__area">
+                        <input type="submit" value="送信">
+                    </div>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
+<footer class="footer">
+    <small class="footer__copyright">
+        &copy; 2020 My Work
+    </small>
+</footer>
 </html>
